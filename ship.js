@@ -1,18 +1,20 @@
-/**
- * Created by Taieb on 13/02/2017.
- */
+
 function Ship() {
-    this.x = width / 2;
+    this.x = width/2;
+    this.xdir = 0;
 
-
-    this.show = function () {
+    this.show = function() {
         fill(255);
         rectMode(CENTER);
-        rect(this.x, height - 20, 20, 60);
+        rect(this.x, height-20, 20, 60);
     }
-    this.move=function (dir) {
-        this.x +=dir*20;
+
+    this.setDir = function(dir) {
+        this.xdir = dir;
     }
+
+    this.move = function(dir) {
+        this.x += this.xdir*10;
+    }
+
 }
-
-
