@@ -1,0 +1,19 @@
+{
+  "name": "spaceinvaders",
+  "version": "1.0.0",
+  "description": "Space Invaders game to play in browser in JavaScript/HTML and the p5.js library.",
+  "main": "sketch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlFalahTaieb/Space-Invaders-in-JS-with-p5.js.git"
+  },
+  "author": "TaiebAlFalah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlFalahTaieb/Space-Invaders-in-JS-with-p5.js/issues"
+  },
+  "homepage": "https://github.com/AlFalahTaieb/Space-Invaders-in-JS-with-p5.js#readme"
+}
