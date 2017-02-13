@@ -1,17 +1,20 @@
 var ship;
-
+var flower;
 function setup() {
 createCanvas(600,400);
-ship=new ship();
+ship=new Ship();
+flower=new Flower();
 }
 
 function draw() {
   background(51);
+  ship.show();
+  flower.show();
 }
 function keyPressed() {
     if (keyCode === RIGHT_ARROW) {
-        ship.left();
+        ship.move(1);
     } else if (keyCode === LEFT_ARROW){
-        ship.right();
+        ship.move(-1);
     }
 }
